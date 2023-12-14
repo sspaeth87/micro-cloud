@@ -1,24 +1,13 @@
 package de.xplugin.payment.storage;
 
-import java.time.LocalDateTime;
+import de.xplugin.payment.domain.Payment;
+import lombok.Getter;
 
+import java.util.ArrayList;
+import java.util.List;
+
+@Getter
 public class DataRoot
 {
-	private String data;
-	
-	public DataRoot()
-	{
-		this.data = LocalDateTime.now().toString();
-	}
-	
-	public String getData()
-	{
-		return this.data;
-	}
-	
-	public void setData(final String data)
-	{
-		this.data = data;
-	}
-	
+	private final List<Payment> payments = new ArrayList<>();
 }

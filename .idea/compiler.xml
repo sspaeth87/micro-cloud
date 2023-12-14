@@ -9,7 +9,8 @@
         <option name="micronaut.processing.group" value="de.xplugin.payment" />
         <option name="micronaut.processing.module" value="payment" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-inject-java/3.10.1/micronaut-inject-java-3.10.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-http-validation/3.10.1/micronaut-http-validation-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-inject/3.10.1/micronaut-inject-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar" />
@@ -17,19 +18,17 @@
           <entry name="$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core/3.10.1/micronaut-core-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar" />
-          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-aop/3.10.1/micronaut-aop-3.10.1.jar" />
-          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-validation/3.10.1/micronaut-validation-3.10.1.jar" />
-          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core-reactive/3.10.1/micronaut-core-reactive-3.10.1.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
-          <entry name="$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar" />
-          <entry name="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.5.0/reactor-core-3.5.0.jar" />
-          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-http-validation/3.10.1/micronaut-http-validation-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-http-server/3.10.1/micronaut-http-server-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-websocket/3.10.1/micronaut-websocket-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-http/3.10.1/micronaut-http-3.10.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core-reactive/3.10.1/micronaut-core-reactive-3.10.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.5.0/reactor-core-3.5.0.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-http-client-core/3.10.1/micronaut-http-client-core-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-runtime/3.10.1/micronaut-runtime-3.10.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-aop/3.10.1/micronaut-aop-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-context/3.10.1/micronaut-context-3.10.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-jackson-databind/3.10.1/micronaut-jackson-databind-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-jackson-core/3.10.1/micronaut-jackson-core-3.10.1.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-json-core/3.10.1/micronaut-json-core-3.10.1.jar" />
